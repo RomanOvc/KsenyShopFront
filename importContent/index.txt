@@ -1,0 +1,307 @@
+import styles from './reg.module.css'
+
+const Reg = (props) => {
+  return (
+    <div className={styles['container']}>
+      <div className={styles['reg']}>
+        <div className={styles['categories']}>
+          <div className={styles['frame']}>
+            <span className={styles['text']}>
+              <span>НОВЫЕ ТОВАРЫ НЕДЕЛИ</span>
+            </span>
+            <img
+              src="/line414062-9edy.svg"
+              alt="Line414062"
+              className={styles['line41']}
+            />
+          </div>
+          <div className={styles['frame1']}>
+            <img
+              src="/line514062-davn.svg"
+              alt="Line514062"
+              className={styles['line51']}
+            />
+            <span className={styles['text02']}>
+              <span>Товары со скидкой</span>
+            </span>
+          </div>
+          <div className={styles['frame2']}>
+            <img
+              src="/line514062-a076.svg"
+              alt="Line514062"
+              className={styles['line511']}
+            />
+            <span className={styles['text04']}>
+              <span>Детские товары</span>
+            </span>
+          </div>
+          <div className={styles['frame3']}>
+            <img
+              src="/line514062-h7gb.svg"
+              alt="Line514062"
+              className={styles['line512']}
+            />
+            <span className={styles['text06']}>
+              <span>Женские товары</span>
+            </span>
+          </div>
+          <div className={styles['frame4']}>
+            <img
+              src="/line514062-de6.svg"
+              alt="Line514062"
+              className={styles['line513']}
+            />
+            <span className={styles['text08']}>
+              <span>Мужские товары</span>
+            </span>
+          </div>
+          <div className={styles['frame5']}>
+            <img
+              src="/line524062-bid.svg"
+              alt="Line524062"
+              className={styles['line52']}
+            />
+            <span className={styles['text10']}>
+              <span>Товары прошлой недели</span>
+            </span>
+          </div>
+        </div>
+        <div className={styles['scroll']}>
+          <img
+            src="/vector334063-yn8r.svg"
+            alt="Vector334063"
+            className={styles['vector33']}
+          />
+          <img
+            src="/vector344063-6y0l.svg"
+            alt="Vector344063"
+            className={styles['vector34']}
+          />
+        </div>
+        <div className={styles['photo']}>
+          <div className={styles['photo1']}>
+            <img src alt="Rectangle954063" className={styles['rectangle95']} />
+            <img src alt="Rectangle984063" className={styles['rectangle98']} />
+            <img src alt="Rectangle994063" className={styles['rectangle99']} />
+          </div>
+          <div className={styles['pricelist']}>
+            <span className={styles['text12']}>
+              <span>2000₽</span>
+            </span>
+            <span className={styles['text14']}>
+              <span>1000₽</span>
+            </span>
+            <span className={styles['text16']}>
+              <span>Футболка “Гуччи”</span>
+            </span>
+            <span className={styles['text18']}>
+              <span>2000₽</span>
+            </span>
+            <span className={styles['text20']}>
+              <span>Футболка “Гуччи”</span>
+            </span>
+            <span className={styles['text22']}>
+              <span>2000₽</span>
+            </span>
+            <span className={styles['text24']}>
+              <span>Футболка “Гуччи”</span>
+            </span>
+            <img
+              src
+              alt="Rectangle1064063"
+              className={styles['rectangle106']}
+            />
+            <span className={styles['text26']}>
+              <span>В корзину</span>
+            </span>
+            <img
+              src
+              alt="Rectangle1074063"
+              className={styles['rectangle107']}
+            />
+            <span className={styles['text28']}>
+              <span>В корзину</span>
+            </span>
+            <img
+              src
+              alt="Rectangle1084063"
+              className={styles['rectangle108']}
+            />
+            <span className={styles['text30']}>
+              <span>В корзину</span>
+            </span>
+            <img
+              src
+              alt="Rectangle1464063"
+              className={styles['rectangle146']}
+            />
+            <span className={styles['text32']}>
+              <span>50%</span>
+            </span>
+          </div>
+        </div>
+        <div className={styles['hedder']}>
+          <img src alt="Group4714063" className={styles['group471']} />
+          <div className={styles['frame34']}>
+            <span className={styles['text34']}>
+              <span>Каталог</span>
+            </span>
+            <div className={styles['group70']}>
+              <img
+                src="/vector4065-ng2h.svg"
+                alt="Vector4065"
+                className={styles['vector']}
+              />
+              <img
+                src="/vector4065-kozh.svg"
+                alt="Vector4065"
+                className={styles['vector1']}
+              />
+              <img
+                src="/vector4065-kozh.svg"
+                alt="Vector4065"
+                className={styles['vector2']}
+              />
+            </div>
+          </div>
+          <div className={styles['frame35']}>
+            <div className={styles['group71']}>
+              <img
+                src="/vector4065-cfzo.svg"
+                alt="Vector4065"
+                className={styles['vector3']}
+              />
+              <span className={styles['text36']}>
+                <span>Поиск...</span>
+              </span>
+            </div>
+          </div>
+          <div className={styles['frame37']}>
+            <div className={styles['alarm']}>
+              <img
+                src="/alarmi406-jsia.svg"
+                alt="alarmI406"
+                className={styles['alarm1']}
+              />
+            </div>
+          </div>
+          <div className={styles['frame33']}>
+            <div className={styles['lock1']}>
+              <img
+                src="/vector4063-lxd8.svg"
+                alt="Vector4063"
+                className={styles['vector4']}
+              />
+            </div>
+          </div>
+          <img
+            src="/frame364063-w41h.svg"
+            alt="Frame364063"
+            className={styles['frame36']}
+          />
+        </div>
+        <div className={styles['frame57']}>
+          <div className={styles['backgroond']}>
+            <img
+              src
+              alt="Rectangle1544063"
+              className={styles['rectangle154']}
+            />
+          </div>
+          <div className={styles['frame56']}>
+            <div className={styles['go']}>
+              <span className={styles['text38']}>
+                <span className={styles['text39']}>
+                  У вас есть аккаунт?
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>Войти</span>
+              </span>
+              <img
+                src
+                alt="Rectangle864063"
+                className={styles['rectangle86']}
+              />
+              <span className={styles['text41']}>
+                <span>Подтвердить</span>
+              </span>
+            </div>
+            <div className={styles['repassword']}>
+              <img
+                src="/line524063-g4jb.svg"
+                alt="Line524063"
+                className={styles['line521']}
+              />
+              <img
+                src="/vector4063-ywc.svg"
+                alt="Vector4063"
+                className={styles['vector5']}
+              />
+              <span className={styles['text43']}>
+                <span>
+                  Повторите пароль
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </span>
+            </div>
+            <div className={styles['password']}>
+              <img
+                src="/line514063-g3eu.svg"
+                alt="Line514063"
+                className={styles['line514']}
+              />
+              <img
+                src="/vector4063-qdwd.svg"
+                alt="Vector4063"
+                className={styles['vector6']}
+              />
+              <span className={styles['text45']}>
+                <span>
+                  Ваш пароль
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </span>
+            </div>
+            <div className={styles['email']}>
+              <img
+                src="/line534063-9gsc.svg"
+                alt="Line534063"
+                className={styles['line53']}
+              />
+              <span className={styles['text47']}>
+                <span>Ваша электронная почта</span>
+              </span>
+              <img
+                src="/vector4063-wdot.svg"
+                alt="Vector4063"
+                className={styles['vector7']}
+              />
+            </div>
+            <div className={styles['up']}>
+              <span className={styles['text49']}>
+                <span>Регистрация</span>
+              </span>
+              <img
+                src="/vector4063-rltf.svg"
+                alt="Vector4063"
+                className={styles['vector8']}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
